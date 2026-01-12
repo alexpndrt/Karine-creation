@@ -1,47 +1,47 @@
-# 09 - Budget et Délais
+# 09 - Budget et Délais - Karine Creation
 
 ## Estimation budgétaire globale
 
 ### Coûts développement (Phase 1)
 
-#### Développement technique
+#### Développement technique couture
 
 - **Next.js setup + base** : 20-30 heures × €50/h = €1,000-1,500
-- **Composants UI/UX** : 30-40 heures × €50/h = €1,500-2,000
-- **Portfolio/gallery** : 15-20 heures × €50/h = €750-1,000
-- **Formulaire contact** : 10-15 heures × €50/h = €500-750
-- **SEO/Performance** : 15-20 heures × €50/h = €750-1,000
+- **Composants UI/UX couture** : 30-40 heures × €50/h = €1,500-2,000
+- **Portfolio/gallery créations** : 20-25 heures × €50/h = €1,000-1,250 (optimisation images haute qualité)
+- **Formulaire devis couture** : 15-20 heures × €50/h = €750-1,000 (calculateur intelligent)
+- **SEO local couture** : 20-25 heures × €50/h = €1,000-1,250 (référencement "couturière [ville]")
 - **Tests + déploiement** : 10-15 heures × €50/h = €500-750
 
-**Sous-total développement** : €4,000-6,000
+**Sous-total développement** : €5,750-7,750
 
-#### Design et contenu
+#### Design et contenu couture
 
-- **Maquettes UX/UI** : 20-30 heures × €60/h = €1,200-1,800
-- **Contenu rédaction** : 15-20 heures × €40/h = €600-800
-- **Photos portfolio** : €300-500 (shooting + retouches)
-- **Logo + identité** : €400-800 (graphiste professionnel)
+- **Maquettes UX/UI spécialisées couture** : 25-35 heures × €60/h = €1,500-2,100
+- **Contenu rédaction couture** : 20-25 heures × €40/h = €800-1,000 (articles conseils techniques)
+- **Photos portfolio créations** : €500-800 (shooting professionnel créations + modèles)
+- **Logo + identité visuelle couture** : €600-1,000 (graphiste spécialisé mode/couture)
 
-**Sous-total design/contenu** : €2,500-3,900
+**Sous-total design/contenu** : €3,400-4,900
 
-#### Infrastructure et outils
+#### Infrastructure et outils couture
 
 - **Hébergement annuel** : Vercel Pro = €240
-- **Domaine** : €15/an
-- **Outils dev** : Figma (€144/an), monitoring (€200/an)
+- **Domaine .fr** : €15/an
+- **Outils dev couture** : Figma (€144/an), Cloudinary images (€100/an), monitoring (€200/an)
 - **Certificats SSL** : Inclus hébergement
 
-**Sous-total infrastructure** : €600/an
+**Sous-total infrastructure** : €700/an
 
-#### Marketing lancement
+#### Marketing lancement couture
 
-- **SEO initial** : €800-1,200 (consultant)
-- **Google Ads** : €500 (campagne lancement)
-- **Réseaux sociaux** : €300 (création profils)
+- **SEO local initial** : €1,000-1,500 (consultant spécialisé référencement local)
+- **Google Ads régional** : €600 (campagne "couturière [ville]")
+- **Réseaux sociaux couture** : €400 (création profils Instagram, Pinterest spécialisés)
 
-**Sous-total marketing** : €1,600-2,000
+**Sous-total marketing** : €2,000-2,500
 
-### Budget total estimé : €8,700 - €11,900
+### Budget total estimé : €11,850 - €15,850
 
 ---
 
@@ -49,102 +49,107 @@
 
 ### Par catégorie (pourcentages)
 
-- **Développement** : 45-50% (€4,000-6,000)
-- **Design/Contenu** : 25-30% (€2,500-3,900)
-- **Infrastructure** : 5% (€600)
-- **Marketing** : 15-20% (€1,600-2,000)
+### Par catégorie (pourcentages)
 
-### Par phase
+- **Développement couture** : 45-50% (€5,750-7,750)
+- **Design/Contenu spécialisé** : 25-30% (€3,400-4,900)
+- **Infrastructure** : 5% (€700)
+- **Marketing local** : 15-20% (€2,000-2,500)
 
-- **Phase 1 (MVP)** : 70% du budget (€6,000-8,000)
-- **Phase 2 (Enrichissement)** : 20% (€1,500-2,000)
-- **Phase 3 (Marketing)** : 10% (€1,000-2,000)
+### Par phase couture
+
+- **Phase 1 (MVP portfolio)** : 70% du budget (€8,000-11,000)
+- **Phase 2 (Blog & communauté)** : 20% (€2,000-3,000)
+- **Phase 3 (E-commerce & marketing)** : 10% (€1,000-2,000)
 
 ---
 
 ## Planning prévisionnel
 
-### Phase 1 : Développement MVP (4-6 semaines)
+### Phase 1 : Développement MVP couture (5-7 semaines)
 
-#### Semaine 1-2 : Analyse & Design
+#### Semaine 1-2 : Analyse & Design spécialisé
 
-- Cahier des charges finalisation
-- Maquettes UX/UI validation
-- Architecture technique définition
-- Setup environnement développement
+- Cahier des charges couture finalisation
+- Maquettes UX/UI validation (galeries images, formulaires devis)
+- Architecture technique définition (optimisation photos haute qualité)
+- Setup environnement développement couture
 
-**Jalons** : Wireframes validés, stack technique choisie
+**Jalons** : Wireframes validés spécialisés couture, stack technique choisie
 
-#### Semaine 3-4 : Développement base
+#### Semaine 3-4 : Développement base couture
 
-- Structure Next.js + TypeScript
-- Composants layout (Header/Footer)
-- Pages statiques (Accueil, À propos)
-- Styles Tailwind CSS responsive
+- Structure Next.js + TypeScript pour portfolio
+- Composants layout couture (Header/Footer élégant)
+- Pages statiques (Accueil créations, À propos Karine)
+- Styles Tailwind CSS responsive (inspirations mode)
 
-**Jalons** : Site navigable, design cohérent
+**Jalons** : Site navigable, design cohérent avec univers couture
 
-#### Semaine 5-6 : Fonctionnalités clés
+#### Semaine 5-7 : Fonctionnalités clés couture
 
-- Portfolio avec filtres
-- Formulaire contact fonctionnel
-- Optimisations SEO/performance
-- Tests et validation
+- Portfolio créations avec filtres (robes, costumes, retouches)
+- Formulaire devis intelligent (calculateur tarifs couture)
+- Optimisations SEO local "couturière [ville]"
+- Tests et validation spécialisées couture
 
-**Jalons** : MVP complet, prêt déploiement
+**Jalons** : MVP complet prêt déploiement, premières demandes devis
 
-### Phase 2 : Enrichissement (2-3 semaines)
+### Phase 2 : Enrichissement couture (3-4 semaines)
 
-#### Fonctionnalités avancées
+#### Fonctionnalités communautaires
 
-- Blog/articles conseils
-- Système témoignages
-- Newsletter intégration
-- Analytics complet
+- Blog/articles conseils couture (techniques, tendances)
+- Système témoignages avec photos avant/après
+- Newsletter intégration (conseils couture hebdomadaires)
+- Analytics complet spécialisé couture
 
-**Jalons** : Fonctionnalités marketing opérationnelles
+**Jalons** : Fonctionnalités marketing opérationnelles, communauté engagée
 
-### Phase 3 : Lancement (1 semaine)
+### Phase 3 : Lancement couture (1-2 semaine)
 
-#### Pré-production
+#### Pré-production spécialisée
 
-- Tests finaux (performance, accessibilité)
-- Audit sécurité
-- Backup et rollback plan
-- Documentation utilisateur
+- Tests finaux (performance galeries images, accessibilité handicaps)
+- Audit sécurité données clients couture
+- Backup et rollback plan (sauvegarde portfolio)
+- Documentation utilisateur couture
 
-#### Lancement
+#### Lancement régional
 
-- Déploiement production
-- Monitoring activation
-- Campagne lancement
-- Communication réseaux
+- Déploiement production optimisé SEO local
+- Monitoring activation spécialisé couture
+- Campagne lancement régional (réseaux locaux, bouche-à-oreille)
+- Communication réseaux sociaux couture
 
-**Jalons** : Site en ligne, première visites
+**Jalons** : Site en ligne, premières visites et demandes devis couture
 
 ---
 
 ## Risques et contingences
 
-### Risques identifiés
+### Risques identifiés couture
 
-#### Techniques
+#### Techniques spécialisés
 
-- **Complexité Next.js** : +2 jours formation
-- **Problèmes performance** : +3 jours optimisation
-- **Intégrations externes** : +1-2 jours debugging
+- **Complexité images haute qualité** : +3 jours optimisation photos créations
+- **Performance galeries** : +2 jours optimisation chargement images
+- **SEO local complexe** : +2 jours référencement géolocalisé
+- **Calculateur devis couture** : +2 jours logique métier tarifs
 
-#### Contenu
+#### Contenu couture
 
-- **Retard photos** : Contenu temporaire/placeholder
-- **Rédaction lente** : Priorisation pages critiques
-- **Validation client** : Itérations supplémentaires
+- **Retard shooting photos créations** : Contenu temporaire/placeholder haute qualité
+- **Rédaction lente articles techniques** : Priorisation conseils couture essentiels
+- **Validation photos par Karine** : Itérations supplémentaires pour perfection
 
-#### Externes
+#### Externes couture
 
-- **Indisponibilité** : Planning flexible
-- **Changement scope** : Gestion changement contrôlée
-- **Problèmes santé** : Backup développeur
+- **Indisponibilité Karine** : Planning flexible autour planning atelier
+- **Changement scope créations** : Gestion changement contrôlée (priorité couture)
+- **Problèmes santé saisonniers** : Backup développeur + planning buffer
+
+### Plans mitigation couture
 
 ### Plans mitigation
 
@@ -164,19 +169,19 @@
 
 ## Métriques de succès
 
-### Qualitatives
+### Qualitatives couture
 
-- **Satisfaction client** : Respect cahier des charges
-- **Qualité code** : Standards professionnels
-- **Performance** : Objectifs Core Web Vitals
-- **Accessibilité** : Conformité RGAA niveau AA
+- **Satisfaction Karine** : Respect cahier des charges spécialisé couture
+- **Qualité code portfolio** : Standards professionnels pour images haute qualité
+- **Performance galeries** : Objectifs Core Web Vitals optimisés photos
+- **Accessibilité handicaps** : Conformité RGAA niveau AA pour couture inclusive
 
-### Quantitatives
+### Quantitatives couture
 
-- **Délais** : Respect planning ±10%
-- **Budget** : Dépenses dans fourchette ±15%
-- **Qualité** : 0 bug critique lancement
-- **Performance** : Lighthouse > 90/100
+- **Délais** : Respect planning ±10% (adaptation planning atelier)
+- **Budget** : Dépenses dans fourchette ±15% (contrôle coûts shooting)
+- **Qualité** : 0 bug critique lancement, galeries fonctionnelles
+- **Performance SEO local** : Positionnement top 3 "couturière [ville]" mois 3
 
 ---
 
@@ -189,79 +194,79 @@
 - **Contenu** : Production interne vs agence
 - **Marketing** : Organique vs payant
 
-### Scénarios budgétaires
+### Scénarios budgétaires couture
 
-#### Budget minimal (€6,000-8,000)
+#### Budget minimal viable (€8,000-10,000)
 
-- Auto-développement CDA
-- Design templates
-- Contenu basique
-- Marketing organique
+- Auto-développement CDA spécialisé couture
+- Design templates adaptés couture
+- Contenu basique (photos existantes Karine)
+- Marketing organique local (SEO + bouche-à-oreille)
 
-#### Budget standard (€8,000-12,000)
+#### Budget standard professionnel (€11,000-15,000)
 
-- Prestataire développement
-- Design personnalisé
-- Photos professionnelles
-- Marketing mixte
+- Prestataire développement spécialisé portfolio
+- Design personnalisé inspiré mode/couture
+- Photos professionnelles créations + modèles
+- Marketing mixte (SEO local + réseaux sociaux)
 
-#### Budget premium (€12,000+)
+#### Budget premium complet (€15,000+)
 
-- Équipe complète
-- Design haut de gamme
-- Production complète
-- Marketing intensif
+- Équipe complète spécialisée couture
+- Design haut de gamme mode/couture
+- Production complète contenu + shooting professionnel
+- Marketing intensif régional + national
 
 ---
 
 ## ROI et rentabilité
 
-### Projections financières
+### Projections financières couture
 
 #### Revenus estimés (première année)
 
-- **Prestations couture** : €30,000-50,000
-- **Nouveaux clients** : 20-30% attribution site
-- **Marge opérationnelle** : 60-70%
+- **Prestations couture** : €35,000-55,000 (CA annuel actuel + 20-50% croissance)
+- **Nouveaux clients site** : 25-35% attribution digitale (devis en ligne)
+- **Marge opérationnelle** : 65-75% (coûts variables faibles)
 
-#### Coûts opérationnels annuels
+#### Coûts opérationnels annuels couture
 
-- **Maintenance** : €500-1,000/an
-- **Marketing** : €2,000-3,000/an
-- **Outils** : €500-800/an
-- **Hébergement** : €300/an
+- **Maintenance technique** : €600-1,200/an (mises à jour, sauvegardes)
+- **Marketing digital** : €2,500-4,000/an (SEO local + réseaux)
+- **Outils spécialisés** : €700-1,000/an (stockage images, analytics couture)
+- **Hébergement optimisé** : €300/an (Vercel + CDN images)
 
-### Retour sur investissement
+### Retour sur investissement couture
 
-- **Point mort** : 3-6 mois
-- **ROI première année** : 200-400%
-- **ROI années suivantes** : 300-600%
+- **Point mort** : 4-7 mois (rapidité selon saison couture)
+- **ROI première année** : 180-350% (selon attribution clients site)
+- **ROI années suivantes** : 250-500% (croissance organique + réputation)
 
-### Facteurs succès
+### Facteurs succès couture
 
-- **Visibilité** : Positionnement SEO local
-- **Conversion** : Qualité leads générés
-- **Rétention** : Fidélisation clients
-- **Réputation** : Témoignages et bouche-à-oreille
+- **Visibilité locale** : Positionnement SEO "couturière [ville]" top 3
+- **Conversion qualifiée** : Qualité leads (demandes devis sérieuses)
+- **Rétention clients** : Fidélisation via suivi personnalisé
+- **Réputation digitale** : Témoignages + réseaux sociaux spécialisés
 
 ---
 
 ## Conclusion budgétaire
 
-### Recommandation
+### Recommandation couture
 
-**Budget standard (€8,000-12,000)** offrant le meilleur équilibre qualité/prix pour un projet professionnel durable.
+**Budget standard professionnel (€11,000-15,000)** offrant le meilleur équilibre qualité/prix pour un site vitrine couture durable et performant.
 
-### Points d'attention
+### Points d'attention spécialisés
 
-- **Investissement initial** : Rentable à moyen terme
-- **Qualité première** : Impact long terme réputation
-- **Évolutivité** : Architecture permettant croissance
-- **Suivi** : Métriques pour optimisation continue
+- **Investissement photos** : Essentiel pour portfolio couture professionnel
+- **Qualité première** : Impact long terme réputation artisanale
+- **Évolutivité technique** : Architecture permettant croissance e-commerce
+- **Suivi spécialisé** : Métriques SEO local et conversion devis
 
-### Prochaines étapes
+### Prochaines étapes couture
 
-1. **Validation budget** : Accord client sur enveloppe
-2. **Planning détaillé** : Jalons et livrables précis
-3. **Contrats** : Formalisation engagements
-4. **Kickoff** : Démarrage développement
+1. **Validation budget Karine** : Accord sur enveloppe adaptée réalité couture
+2. **Planning détaillé atelier** : Jalons respectant planning créations
+3. **Contrats spécialisés** : Formalisation engagements développement couture
+4. **Kickoff projet** : Démarrage développement portfolio Karine Creation
