@@ -1,194 +1,302 @@
 # 03 - Spécifications Fonctionnelles
 
-## Architecture fonctionnelle
+## Architecture fonctionnelle spécifique Karine Creation
 
-### Structure du site (Arborescence)
+### Structure du site adaptée à l'activité couture
 
 ```
 🏠 Accueil
-├── Présentation rapide (hero)
-├── Dernières créations (carousel)
-├── Services phares (vignettes)
-└── Appel à l'action (CTA)
+├── Hero : "Couture sur mesure & retouches - [Ville]"
+├── Carousel : 6 dernières créations représentatives
+├── Services phares : Retouches, Sur mesure, Conseils
+└── CTA : "Demandez votre devis gratuit"
 
 📸 Portfolio
-├── Galerie complète (grille responsive)
-├── Filtres par catégorie (robe, costume, retouches...)
-├── Zoom et lightbox
-└── Détails techniques (matières, techniques)
+├── Galerie complète (grille responsive 3-4 colonnes)
+├── Filtres par catégorie :
+│   ├── Robes (de mariée, de cocktail, d'été)
+│   ├── Costumes homme (complets, vestes, pantalons)
+│   ├── Retouches (ourlets, réparations, modifications)
+│   ├── Créations originales (pièces uniques)
+│   └── Tenues spéciales (cérémonies, événements)
+├── Zoom et lightbox avec détails techniques
+└── Métadonnées : tissus utilisés, techniques, contexte création
 
 🧵 Services
-├── Description détaillée de chaque service
-├── Processus de travail
-├── Délais indicatifs
-└── Garanties proposées
+├── Retouches & Réparations
+│   ├── Ourlets (pantalons, jupes, rideaux)
+│   ├── Raccourcissements (manches, jambes)
+│   ├── Réparations (déchirures, boutons, fermetures)
+│   └── Modifications (tailles, formes)
+├── Créations sur mesure
+│   ├── Robes de mariée/cérémonie
+│   ├── Costumes professionnels
+│   ├── Vêtements personnalisés
+│   └── Conseils stylistiques
+├── Conseils & Accompagnement
+│   ├── Choix de tissus/matières
+│   ├── Conseils d'entretien
+│   └── Accompagnement shopping
+└── Processus de travail expliqué étape par étape
 
 💰 Tarifs
-├── Grille tarifaire claire
-├── Forfaits et options
-├── Conditions particulières
-└── Modalités de paiement
+├── Grille par service (transparent et détaillé)
+├── Forfaits retouches (économiques)
+├── Suppléments matériaux/tissus
+├── Conditions : délais, modalités paiement
+└── Devis gratuit systématique
 
 📞 Contact
-├── Formulaire de contact (avec validation)
-├── Coordonnées complètes
-├── Horaires d'ouverture
-└── Localisation (carte)
+├── Formulaire avec choix service souhaité
+├── Téléphone + email + adresse atelier
+├── Horaires d'ouverture (mardi-samedi)
+└── Carte Google Maps intégrée
 
 👤 À propos
-├── Parcours professionnel
-├── Valeurs et savoir-faire
-├── Équipement et atelier
-└── Certifications/qualifications
+├── Parcours : 15+ ans expérience couture
+├── Valeurs : Artisanat, qualité, personnalisation
+├── Atelier : Photos de l'espace de travail
+└── Certifications : Formation professionnelle
 ```
 
 ---
 
-## Fonctionnalités détaillées
+## Fonctionnalités détaillées prioritaires
 
-### F1 - Navigation et structure
-
-**Priorité** : Critique
-**Description** : Menu principal responsive avec navigation fluide
-**Critères** :
-
-- Menu burger mobile
-- Fil d'Ariane sur pages profondes
-- Liens actifs et états hover
-- Accessibilité clavier (tabulation)
-
-### F2 - Galerie portfolio
+### F1 - Système de filtres portfolio avancés
 
 **Priorité** : Critique
-**Description** : Présentation visuelle des créations
+**Description** : Permettre aux visiteurs de trouver rapidement les créations correspondant à leurs besoins
 **Critères** :
 
-- Grille responsive (1-4 colonnes selon device)
-- Filtres par catégorie (dropdown + boutons)
-- Tri par date/nouveauté
-- Lightbox avec navigation (précédent/suivant)
-- Zoom sur images haute résolution
-- Métadonnées (matières, techniques, date)
+- **Filtres principaux** : Catégorie (robes, costumes, retouches), Type (mariage, professionnel, quotidien)
+- **Filtres secondaires** : Matière (coton, soie, laine), Couleur, Saison
+- **Tri multiple** : Date (nouveau→ancien), Popularité, Prix (croissant/décroissant)
+- **Sauvegarde filtres** : URL partageable pour recommandations
+- **Résultats dynamiques** : Mise à jour instantanée sans rechargement
 
-### F3 - Formulaire de contact
+### F2 - Galerie portfolio avec storytelling
 
 **Priorité** : Critique
-**Description** : Collecte des demandes clients
+**Description** : Présentation immersive des créations avec contexte
 **Critères** :
 
-- Champs : nom, email, téléphone, message, service souhaité
-- Validation temps réel (format email, champs requis)
-- Protection anti-spam (honeypot ou captcha)
-- Confirmation instantanée + email automatique
-- Stockage sécurisé (RGPD compliant)
+- **Images haute qualité** : Minimum 2000px largeur, WebP optimisé
+- **Lightbox interactive** : Navigation clavier/souris, zoom pinch-to-zoom mobile
+- **Détails techniques** : Popover avec tissus, techniques, temps réalisation
+- **Avant/après** : Pour modifications et transformations
+- **Stories clients** : Citations intégrées aux photos
 
-### F4 - Responsive design
+### F3 - Formulaire de contact intelligent
 
 **Priorité** : Critique
-**Description** : Adaptation à tous les écrans
+**Description** : Collecte qualifiée des demandes avec routing automatique
 **Critères** :
 
-- Breakpoints : mobile (320px), tablet (768px), desktop (1024px+)
-- Images adaptatives (srcset)
-- Touch-friendly (boutons 44px minimum)
-- Performance optimisée mobile
+- **Champs conditionnels** : Affichage selon service sélectionné
+- **Validation smart** : Format téléphone français, email valide
+- **Routing automatique** : Email spécifique selon type demande
+- **Confirmation multi-canal** : Email + SMS optionnel
+- **Suivi demandes** : Numéro référence pour relance
 
-### F5 - SEO et performance
+### F4 - Calculateur de tarifs approximatif
 
 **Priorité** : Importante
-**Description** : Optimisation moteurs de recherche
+**Description** : Donner une idée des prix sans engagement
 **Critères** :
 
-- Balises meta (title, description, og:image)
-- Structure sémantique (h1-h6, sections)
-- URLs SEO-friendly (/portfolio/robe-mariage)
-- Sitemap XML automatique
-- Performance > 90/100 (Lighthouse)
+- **Services prédéfinis** : Ourlet pantalon, retouche jupe, etc.
+- **Variables** : Complexité (simple, moyenne, complexe)
+- **Options** : Express (+30%), matériaux supplémentaires
+- **Fourchette prix** : Min-max transparent
+- **Redirection devis** : Pour demandes précises
 
-### F6 - Accessibilité RGAA
+### F5 - Section témoignages intégrée
 
 **Priorité** : Importante
-**Description** : Conformité niveau AA
+**Description** : Preuves sociales pour renforcer confiance
 **Critères** :
 
-- Navigation clavier complète
-- Lecteurs d'écran compatibles
-- Contraste couleurs > 4.5:1
-- Alternatives textuelles pour images
-- Langue déclarée (fr-FR)
+- **Format varié** : Texte, photo, vidéo courte
+- **Modération** : Validation avant publication
+- **Rich snippets** : Étoiles Google My Business
+- **Filtrage** : Par service/type de vêtement
+- **CTA intégré** : "Votre avis compte"
 
 ---
 
-## User Stories
+## User Stories spécifiques Karine Creation
 
-### US001 - Découverte du site
+### US001 - Marie cherche retouches urgentes
 
-**En tant que** visiteur
-**Je veux** voir immédiatement ce que propose Karine
-**Afin de** décider si je contacte pour un service
-
-**Critères d'acceptation** :
-
-- Page d'accueil < 3 secondes de chargement
-- Hero avec accroche + CTA visible
-- Carousel des dernières créations
-- Services mis en avant
-
-### US002 - Exploration portfolio
-
-**En tant que** client potentiel
-**Je veux** voir les créations par catégorie
-**Afin de** évaluer le style et la qualité
+**En tant que** jeune maman pressée (Marie)
+**Je veux** trouver rapidement les tarifs retouches
+**Afin de** savoir si c'est abordable pour mes besoins quotidiens
 
 **Critères d'acceptation** :
 
-- Filtres fonctionnels (robe, costume, retouches)
-- Images haute qualité avec zoom
-- Descriptions techniques détaillées
-- Tri chronologique possible
+- Page tarifs accessible en 2 clics max depuis accueil
+- Grille "retouches express" visible immédiatement
+- Prix transparents sans "surprise"
+- Calculatrice simple pour ourlet pantalon
 
-### US003 - Prise de contact
+### US002 - Pierre évalue la qualité costumes
 
-**En tant que** prospect
-**Je veux** envoyer une demande facilement
-**Afin d'obtenir** un devis personnalisé
-
-**Critères d'acceptation** :
-
-- Formulaire validé côté client/serveur
-- Email de confirmation automatique
-- Réponse sous 24h garantie
-- Données stockées de manière sécurisée
-
-### US004 - Consultation mobile
-
-**En tant que** utilisateur mobile
-**Je veux** naviguer facilement sur téléphone
-**Afin de** pouvoir contacter en déplacement
+**En tant que** cadre exigeant (Pierre)
+**Je veux** voir des costumes sur mesure détaillés
+**Afin de** juger de la qualité et du style professionnel
 
 **Critères d'acceptation** :
 
-- Design mobile-first
-- Touch targets 44px minimum
-- Images optimisées
-- Temps de chargement < 2s
+- Filtre "costumes professionnels" fonctionnel
+- Photos haute résolution avec détails finitions
+- Descriptions techniques (matières, doublures, boutons)
+- Comparaison facile avec créations similaires
+
+### US003 - Sophie cherche inspiration mariage
+
+**En tant que** future mariée créative (Sophie)
+**Je veux** découvrir des robes originales
+**Afin de** trouver l'inspiration pour ma robe de rêve
+
+**Critères d'acceptation** :
+
+- Galerie "robes de mariée" inspirante et variée
+- Filtres par style (classique, bohème, moderne)
+- Stories des créations avec contexte client
+- Possibilité partage sur Pinterest/Instagram
+
+### US004 - Jacques contacte pour réparation
+
+**En tant que** client traditionnel (Jacques)
+**Je veux** contacter facilement par téléphone
+\*\*Afin d'apporter mon costume pour réparation
+
+**Critères d'acceptation** :
+
+- Numéro téléphone visible partout
+- Horaires d'ouverture claires
+- Formulaire simple en complément du téléphone
+- Confirmation de prise en charge rapide
+
+### US005 - Client professionnel demande devis
+
+**En tant que** entreprise (client B2B)
+**Je veux** obtenir un devis pour uniformes employés
+**Afin de** équiper mon équipe avec des tenues sur mesure
+
+**Critères d'acceptation** :
+
+- Formulaire avec champ "Quantité" et "Délai souhaité"
+- Calcul automatique pour commandes groupées
+- Possibilité upload cahier des charges
+- Réponse garantie sous 24h
 
 ---
 
-## Évolution future (v2)
+## Fonctionnalités techniques avancées
 
-### Fonctionnalités envisagées
+### F6 - Optimisation SEO locale
 
-- **Blog** : Conseils couture et tendances
-- **E-commerce** : Vente de patrons/tissus
-- **Rendez-vous en ligne** : Calendrier intégré
-- **Devis automatique** : Calculateur de prix
-- **Newsletter** : Fidélisation clients
-- **Témoignages clients** : Avis vérifiés
+**Priorité** : Importante
+**Description** : Dominer les recherches "couture [ville]"
+**Critères** :
 
-### Préparation technique
+- **Schema.org LocalBusiness** : Données structurées complètes
+- **Google My Business** : Intégration avis et horaires
+- **Mots-clés longue traîne** : "retouches professionnelles [ville]"
+- **Contenu frais** : Blog conseils couture mensuel
 
-- Architecture modulaire pour ajouts faciles
-- API REST pour fonctionnalités avancées
-- Base de données pour contenu dynamique
-- Système de cache pour performance
+### F7 - Intégration réseaux sociaux
+
+**Priorité** : Moyenne
+**Description** : Amplifier la présence digitale
+**Critères** :
+
+- **Instagram feed** : Galerie photos récente auto-importée
+- **Boutons partage** : Facebook, Pinterest, WhatsApp
+- **Stories intégrées** : Témoignages et behind-the-scenes
+- **Cross-posting** : Publication simultanée site/réseaux
+
+### F8 - Système de rendez-vous (v2)
+
+**Priorité** : Faible (évolution)
+**Description** : Prise de RDV en ligne
+**Critères** :
+
+- **Calendrier intégré** : Disponibilités temps réel
+- **Rappels automatiques** : Email + SMS
+- **Confirmation workflow** : Validation → paiement acompte → RDV
+- **Sync outils** : Google Calendar, Outlook
+
+---
+
+## Évolution fonctionnelle planifiée
+
+### Phase 2 (3-6 mois après lancement)
+
+#### Fonctionnalités prioritaires
+
+- **Blog couture** : Conseils entretien, tendances, DIY
+- **Galerie tissus** : Catalogue matières disponibles
+- **Système devis** : Calculateur automatique avancé
+- **Newsletter** : Fidélisation et actualités
+
+#### Améliorations UX
+
+- **Recherche avancée** : Moteur de recherche portfolio
+- **Favoris** : Système de coups de cœur
+- **Comparateur** : Outil comparaison créations
+- **Guide tailles** : Aide choix dimensions
+
+### Phase 3 (6-12 mois après lancement)
+
+#### E-commerce léger
+
+- **Vente patrons** : PDF téléchargeables
+- **Accessoires** : Mercerie, boutons, fermetures
+- **Goodies** : Produits dérivés personnalisables
+- **Click & Collect** : Commande en ligne, retrait atelier
+
+#### Fonctionnalités communautaires
+
+- **Club clients** : Avantages fidélité
+- **Ateliers participatifs** : Inscriptions en ligne
+- **Concours** : Jeux concours créations
+- **Partenariats** : Liens boutiques tissus locales
+
+### Préparation technique pour évolutions
+
+#### Architecture modulaire
+
+- **CMS headless** : Préparation Strapi/Contentful
+- **API REST** : Endpoints pour fonctionnalités avancées
+- **Base de données** : PostgreSQL pour contenu dynamique
+- **Cache intelligent** : Redis pour performance
+
+#### Intégrations futures
+
+- **Paiement en ligne** : Stripe pour e-commerce
+- **CRM** : HubSpot pour gestion clients
+- **Analytics avancé** : Google Analytics 4 + heatmaps
+- **Email marketing** : Mailchimp/Sendinblue
+
+---
+
+## Critères de performance fonctionnelle
+
+### Temps de réponse garantis
+
+- **Portfolio** : Chargement images < 2 secondes
+- **Filtres** : Résultats instantanés (< 500ms)
+- **Formulaire** : Validation temps réel (< 300ms)
+- **Recherche** : Résultats < 1 seconde
+
+### Disponibilité requise
+
+- **Uptime** : 99.5% (maintenance planifiée)
+- **Support** : Réponse demandes < 24h ouvrées
+- **Corrections** : Bugs critiques < 4h
+- **Évolutions** : Releases bi-mensuelles
+
+Cette spécification fonctionnelle couvre tous les besoins essentiels de Karine tout en préparant les évolutions futures de son activité !
