@@ -1,10 +1,10 @@
-# 10 - Critères de Validation et Tests
+# 10 - Critères de Validation et Tests - Karine Creation
 
-## Méthodologie de validation
+## Méthodologie de validation couture
 
-### Approche qualité
+### Approche qualité spécialisée
 
-#### Tests en pyramide
+#### Tests en pyramide couture
 
 ```
 UI Tests (E2E)     ████░░░░ 20%
@@ -12,90 +12,90 @@ Integration Tests  ████████ 40%
 Unit Tests         ██████████ 40%
 ```
 
-#### Niveaux validation
+#### Niveaux validation couture
 
-- **Fonctionnel** : Features opérationnelles
-- **Technique** : Performance, sécurité, accessibilité
-- **Utilisateur** : UX, design, contenu
-- **Business** : Conversion, ROI, satisfaction
+- **Fonctionnel spécialisé** : Features portfolio et devis opérationnelles
+- **Technique haute qualité** : Performance galeries images, sécurité données clients
+- **Utilisateur couture** : UX adaptée passionnés, accessibilité handicaps
+- **Business artisanal** : Conversion devis, satisfaction clients couture
 
 ---
 
 ## Critères d'acceptation détaillés
 
-### CA001 - Site accessible et navigable
+### CA001 - Site couture accessible et élégant
 
-**Étant donné** un utilisateur avec connexion internet
+**Étant donné** un passionné de couture avec connexion internet
 **Quand** il accède à karine-creation.fr
-**Alors** le site se charge en < 3 secondes
-**Et** la navigation est fluide sur mobile/desktop
+**Alors** le site se charge en < 2 secondes avec galeries images haute qualité
+**Et** la navigation est fluide et inspirante sur mobile/desktop
 
-**Critères techniques** :
+**Critères techniques couture** :
 
-- [ ] Temps chargement < 3s (Lighthouse)
-- [ ] Responsive : breakpoints 320px, 768px, 1024px
-- [ ] HTTPS obligatoire
-- [ ] Erreur 404 personnalisée
+- [ ] Temps chargement < 2s (optimisé galeries photos créations)
+- [ ] Responsive : breakpoints adaptés couture (320px, 768px, 1024px)
+- [ ] HTTPS obligatoire + certificat couture professionnel
+- [ ] Erreur 404 élégante avec inspiration couture
 
-### CA002 - Portfolio fonctionnel
+### CA002 - Portfolio créations impressionnant
 
-**Étant donné** un visiteur intéressé par les créations
-**Quand** il consulte la page portfolio
-**Alors** il peut filtrer par catégorie (robes, costumes, retouches)
-**Et** visualiser les photos en haute qualité
+**Étant donné** un client potentiel intéressé par créations couture
+**Quand** il consulte la page portfolio Karine
+**Alors** il peut filtrer par spécialités (robes mariage, costumes, retouches)
+**Et** visualiser les photos haute qualité avec détails techniques
 
-**Critères techniques** :
+**Critères techniques portfolio** :
 
-- [ ] Grille responsive (1-4 colonnes)
-- [ ] Filtres actifs (boutons + dropdown)
-- [ ] Lightbox avec navigation
-- [ ] Images optimisées WebP
-- [ ] Métadonnées (matières, techniques)
+- [ ] Grille responsive élégante (1-4 colonnes inspirations)
+- [ ] Filtres intuitifs (boutons stylisés + dropdown couture)
+- [ ] Lightbox professionnelle avec navigation créations
+- [ ] Images optimisées WebP haute qualité
+- [ ] Métadonnées techniques (matières, techniques, délais réalisation)
 
-### CA003 - Formulaire contact opérationnel
+### CA003 - Formulaire devis couture intelligent
 
-**Étant donné** un prospect souhaitant contacter
-**Quand** il remplit le formulaire
-**Alors** il reçoit confirmation immédiate
-**Et** Karine reçoit l'email dans l'heure
+**Étant donné** un client souhaitant création sur mesure
+**Quand** il remplit le formulaire devis Karine
+**Alors** il reçoit confirmation immédiate avec numéro suivi
+**Et** Karine reçoit devis détaillé avec croquis dans l'heure
 
-**Critères techniques** :
+**Critères techniques devis** :
 
-- [ ] Validation temps réel (email, champs requis)
-- [ ] Protection anti-spam (honeypot)
-- [ ] Email confirmation utilisateur
-- [ ] Email réception professionnelle
-- [ ] Stockage RGPD compliant
+- [ ] Validation temps réel spécialisée couture (complexité, matières)
+- [ ] Protection anti-spam renforcée (RGPD couture)
+- [ ] Email confirmation avec numéro devis
+- [ ] Email réception professionnelle Karine
+- [ ] Stockage RGPD compliant données clients couture
 
-### CA004 - SEO optimisé
+### CA004 - SEO local couture dominant
 
-**Étant donné** une recherche "couture [ville]"
-**Quand** un utilisateur recherche sur Google
-**Alors** le site apparaît en première page
-**Et** la meta description est accrocheuse
+**Étant donné** une recherche "couturière [ville]" ou "robes mariage [ville]"
+**Quand** un client recherche sur Google Maps
+**Alors** Karine Creation apparaît en première position locale
+**Et** la fiche Google My Business affiche portfolio et avis
 
-**Critères techniques** :
+**Critères techniques SEO couture** :
 
-- [ ] Title optimisé (< 60 caractères)
-- [ ] Meta description (< 160 caractères)
-- [ ] Core Web Vitals > 75/100
-- [ ] Sitemap.xml généré
-- [ ] Schema.org LocalBusiness
+- [ ] Title optimisé local (< 60 caractères avec ville)
+- [ ] Meta description accrocheuse spécialités couture (< 160 caractères)
+- [ ] Core Web Vitals > 85/100 (optimisé galeries images)
+- [ ] Sitemap.xml généré avec URLs portfolio
+- [ ] Schema.org LocalBusiness + Couture spécialisés
 
-### CA005 - Accessibilité RGAA AA
+### CA005 - Accessibilité inclusive couture
 
-**Étant donné** un utilisateur en situation handicap
-**Quand** il navigue sur le site
-**Alors** il peut accéder à tout le contenu
-**Et** utiliser toutes les fonctionnalités
+**Étant donné** un utilisateur handicapé passionné couture
+**Quand** il navigue sur le site Karine Creation
+**Alors** il peut accéder à toutes les créations et informations
+**Et** utiliser devis en ligne malgré handicap
 
-**Critères techniques** :
+**Critères techniques accessibilité couture** :
 
-- [ ] Navigation clavier complète
-- [ ] Lecteurs d'écran compatibles
-- [ ] Contraste couleurs > 4.5:1
-- [ ] Focus visible et logique
-- [ ] Langue déclarée (fr-FR)
+- [ ] Navigation clavier complète (galeries, formulaires)
+- [ ] Lecteurs d'écran compatibles descriptions techniques
+- [ ] Contraste couleurs > 4.5:1 (adapté tissus délicats)
+- [ ] Focus visible et logique parcours couture
+- [ ] Langue déclarée (fr-FR) + attributs aria spécialisés
 
 ---
 
@@ -122,94 +122,99 @@ describe("Button", () => {
 });
 ```
 
-#### Utilitaires
+#### Utilitaires couture
 
-- **Validation email** : Formats valides/invalides
-- **Formatage prix** : Devises, séparateurs
-- **Calcul dimensions** : Tailles responsive
-- **API calls** : Mock responses
+- **Validation devis** : Formats couture valides/invalides (complexité, matières)
+- **Formatage tarifs** : Devises, séparateurs adaptés marché couture
+- **Calcul dimensions** : Tailles responsive galeries images
+- **API créations** : Mock responses portfolio et filtres
 
 **Couverture cible** : > 80%
 
 ### Tests d'intégration (Integration Tests)
 
-#### API Routes
+#### API Routes couture
 
-- **Contact form** : Soumission → email → confirmation
-- **Portfolio filters** : Sélection → résultats filtrés
-- **Navigation** : Routing Next.js fonctionnel
+- **Formulaire devis** : Soumission → calcul tarif → email Karine → confirmation client
+- **Portfolio filtres** : Sélection catégorie → résultats créations filtrées
+- **Navigation couture** : Routing Next.js pages spécialisées (robes, retouches)
 
-#### Composants complexes
+#### Composants complexes couture
 
-- **Gallery** : Chargement images + filtres
-- **Forms** : Validation + soumission + feedback
-- **Layout** : Responsive + navigation
+- **Gallery créations** : Chargement images haute qualité + filtres spécialités
+- **Forms devis** : Validation couture + soumission + feedback personnalisé
+- **Layout élégant** : Responsive + navigation inspirée mode
 
 ### Tests end-to-end (E2E)
 
 #### Scénarios utilisateurs
 
 ```typescript
-// Exemple Playwright
-test("complete user journey", async ({ page }) => {
-  // Accès accueil
+// Exemple Playwright couture
+test("parcours client couture complet", async ({ page }) => {
+  // Accès accueil élégant
   await page.goto("http://localhost:3000");
-  await expect(page).toHaveTitle(/Karine Creation/);
+  await expect(page).toHaveTitle(/Karine Creation - Couture sur mesure/);
 
-  // Navigation portfolio
-  await page.click("text=Portfolio");
+  // Navigation portfolio créations
+  await page.click("text=Mes Créations");
   await expect(page).toHaveURL(/.*portfolio/);
 
-  // Filtrage créations
-  await page.click("text=Robes");
-  await expect(page.locator(".gallery-item")).toHaveCount(5);
+  // Filtrage créations mariage
+  await page.click("text=Robes de Mariée");
+  await expect(page.locator(".creation-card")).toHaveCount(3);
 
-  // Contact
-  await page.click("text=Contact");
-  await page.fill("[name=email]", "test@example.com");
-  await page.fill("[name=message]", "Demande devis");
+  // Demande devis création
+  await page.click("text=Demander un Devis");
+  await page.selectOption("[name=type-creation]", "robe-mariee");
+  await page.fill("[name=complexite]", "haute-couture");
+  await page.fill("[name=delai]", "3-mois");
+  await page.fill("[name=email]", "mariee@example.com");
+  await page.fill("[name=description]", "Robe princesse en soie");
   await page.click("button[type=submit]");
-  await expect(page).toHaveText("Message envoyé");
+  await expect(page).toHaveText(
+    "Devis demandé - Karine vous recontacte sous 24h"
+  );
 });
 ```
 
-#### Parcours critiques
+#### Parcours critiques couture
 
-- **Premier visiteur** : Découverte → intérêt → contact
-- **Mobile user** : Navigation tactile fluide
-- **SEO crawler** : Structure accessible robots
+- **Future mariée** : Découverte créations → coup de cœur → demande devis personnalisé
+- **Mobile user couture** : Navigation tactile fluide galeries inspirations
+- **SEO local crawler** : Structure accessible robots pour référencement "couturière [ville]"
 
 ---
 
 ## Validation non-fonctionnelle
 
-### Performance
+### Performance galeries couture
 
-- **Lighthouse** : Score > 90/100 toutes catégories
-- **WebPageTest** : Start Render < 1.5s
-- **Core Web Vitals** : Tous verts (good)
-- **Bundle size** : < 200KB gzippé
+- **Lighthouse** : Score > 90/100 toutes catégories (optimisé images créations)
+- **WebPageTest** : Start Render < 1.2s (galeries haute qualité)
+- **Core Web Vitals** : Tous verts (good) - priorité Largest Contentful Paint
+- **Bundle size** : < 250KB gzippé (composants galeries optimisés)
 
-### Sécurité
+### Sécurité données clients couture
 
-- **OWASP Top 10** : Audit passé
-- **Headers** : CSP, HSTS, X-Frame-Options
-- **Dependencies** : Audit npm clean
-- **SSL** : A+ rating SSL Labs
+- **OWASP Top 10** : Audit passé spécialisé e-commerce couture
+- **Headers** : CSP strict, HSTS, X-Frame-Options pour protection devis
+- **Dependencies** : Audit npm clean (sécurité formulaires clients)
+- **SSL** : A+ rating SSL Labs (confiance clients haute couture)
 
-### Accessibilité
+### Accessibilité inclusive couture
 
-- **RGAA** : Niveau AA validé
-- **WCAG** : Conformité 2.1 AA
-- **Outils** : WAVE, axe, Lighthouse
-- **Tests utilisateurs** : 3 personnes handicapées
+- **RGAA** : Niveau AA validé spécialisé handicaps couture
+- **WCAG** : Conformité 2.1 AA avec critères métier couture
+- **Outils** : WAVE, axe, Lighthouse adaptés galeries images
+- **Tests utilisateurs** : 3 personnes handicapées + tests spécialisés couture
 
-### Compatibilité
+### Compatibilité appareils couture
 
-- **Navigateurs** : Chrome, Firefox, Safari, Edge
-- **Versions** : Support 2 dernières versions
-- **Mobile** : iOS Safari, Chrome Android
-- **Écrans** : 320px à 2560px+
+- **Navigateurs** : Chrome, Firefox, Safari, Edge (dernières versions)
+- **Versions** : Support 2 dernières versions + mobile first
+- **Mobile** : iOS Safari, Chrome Android (partage galeries inspirations)
+- **Écrans** : 320px à 2560px+ (galeries responsive haute qualité)
 
 ---
 
@@ -278,19 +283,19 @@ npm run lint       # Code quality
 - **Duplication** : < 5% code dupliqué
 - **Maintainability** : Grade A (CodeClimate)
 
-### Performance
+### Performance galeries couture
 
-- **First Paint** : < 1.5 secondes
-- **Speed Index** : < 3 secondes
-- **Time to Interactive** : < 3.5 secondes
-- **Bundle size** : < 200KB
+- **First Paint** : < 1.2 secondes (galeries images optimisées)
+- **Speed Index** : < 2.5 secondes (portfolio haute qualité)
+- **Time to Interactive** : < 3 secondes (filtres créations réactifs)
+- **Bundle size** : < 250KB (optimisé composants couture)
 
-### Utilisateur
+### Utilisateur couture
 
-- **Task completion** : > 90% scénarios réussis
-- **Error rate** : < 5% actions échouées
-- **Satisfaction** : SUS score > 70
-- **Accessibility** : 0 erreur critique
+- **Task completion** : > 90% scénarios réussis (demande devis complète)
+- **Error rate** : < 5% actions échouées (formulaires couture intuitifs)
+- **Satisfaction** : SUS score > 75 (UX adaptée passionnés couture)
+- **Accessibility** : 0 erreur critique (inclusive handicaps couture)
 
 ---
 
@@ -322,40 +327,40 @@ npm run lint       # Code quality
 
 ## Checklist finale lancement
 
-### Fonctionnel
+### Fonctionnel couture
 
-- [ ] Toutes user stories validées
-- [ ] Formulaire contact testé
-- [ ] Portfolio navigable
-- [ ] Pages responsive
+- [ ] Toutes user stories couture validées (portfolio, devis, contact)
+- [ ] Formulaire devis intelligent testé spécialisations Karine
+- [ ] Portfolio créations navigable et inspirant
+- [ ] Pages responsive élégantes sur tous appareils
 
-### Technique
+### Technique haute qualité
 
-- [ ] Performance > 90/100
-- [ ] Accessibilité RGAA AA
-- [ ] SEO optimisé
-- [ ] Sécurité auditée
+- [ ] Performance > 90/100 (optimisé galeries images)
+- [ ] Accessibilité RGAA AA spécialisée handicaps couture
+- [ ] SEO local optimisé "couturière [ville]"
+- [ ] Sécurité auditée données clients couture
 
-### Contenu
+### Contenu artisanal
 
-- [ ] Textes validés orthographe
-- [ ] Images optimisées
-- [ ] Coordonnées à jour
-- [ ] Mentions légales
+- [ ] Descriptions techniques créations validées Karine
+- [ ] Images portfolio haute qualité optimisées
+- [ ] Coordonnées atelier et contact professionnels
+- [ ] Mentions légales adaptées activité artisanale
 
-### Production
+### Production couture
 
-- [ ] Domaine configuré
-- [ ] SSL actif
-- [ ] Monitoring opérationnel
-- [ ] Backup fonctionnel
+- [ ] Domaine karine-creation.fr configuré
+- [ ] SSL professionnel actif (confiance clients)
+- [ ] Monitoring spécialisé couture opérationnel
+- [ ] Backup portfolio et données clients fonctionnel
 
-### Communication
+### Communication artisanale
 
-- [ ] Réseaux sociaux créés
-- [ ] Email professionnel
-- [ ] Site référencé Google
-- [ ] Contacts fournisseurs
+- [ ] Réseaux sociaux couture créés (Instagram spécialisé)
+- [ ] Email professionnel karine@karine-creation.fr
+- [ ] Site référencé Google My Business couture
+- [ ] Contacts fournisseurs tissus régionaux validés
 
 ---
 
