@@ -1,265 +1,324 @@
-# 07 - Performance, SEO et Accessibilité
+# 07 - Performance, SEO et Accessibilité - Karine Creation
 
-## Performance Web
+## Performance Web optimisée couture
 
-### Objectifs quantitatifs
+### Objectifs quantitatifs adaptés métier
 
-#### Core Web Vitals (Google)
+#### Core Web Vitals spécialisés portfolio
 
-- **Largest Contentful Paint (LCP)** : < 2.5 secondes
-- **First Input Delay (FID)** : < 100 millisecondes
-- **Cumulative Layout Shift (CLS)** : < 0.1
+- **Largest Contentful Paint (LCP)** : < 2.5s (chargement hero + première image portfolio haute qualité)
+- **First Input Delay (FID)** : < 100ms (réactivité filtres couture et navigation)
+- **Cumulative Layout Shift (CLS)** : < 0.1 (stabilité layout lors lazy loading images)
 
-#### Métriques Lighthouse
+#### Métriques Lighthouse métier couture
 
-- **Performance** : Score > 90/100
-- **Accessibilité** : Score > 95/100
-- **SEO** : Score > 95/100
-- **Best Practices** : Score > 95/100
+- **Performance** : > 90/100 (chargement rapide malgré images portfolio lourdes)
+- **Accessibilité** : > 95/100 (RGAA AA pour accessibilité clients handicaps)
+- **SEO** : > 95/100 (domination requêtes "couture [ville]" + longue traîne)
+- **Best Practices** : > 95/100 (sécurité formulaires devis, PWA ready)
 
-### Optimisations techniques
+### Optimisations techniques spécialisées couture
 
-#### Images et médias
+#### Images portfolio haute qualité
 
-- **Format moderne** : WebP avec fallback JPG/PNG
-- **Compression** : Qualité 80-90% selon usage
-- **Responsive** : Srcset automatique (Next.js Image)
-- **Lazy loading** : Chargement différé
-- **CDN** : Distribution optimisée
+- **Format moderne avancé** : WebP prioritaire, AVIF support, JPG fallback optimisé
+- **Compression intelligente** : Qualité 85% portfolio, 95% hero, art direction
+- **Responsive art directed** : Composition différente mobile/desktop pour robes
+- **Lazy loading progressif** : Priorité hero, puis grille portfolio par intersection
+- **CDN optimisé couture** : Cache longue durée assets, edge computing Vercel
 
-#### Bundle et code
+#### Bundle et code optimisés fonctionnalités couture
 
-- **Code splitting** : Par route (Next.js automatique)
-- **Tree shaking** : Suppression code inutilisé
-- **Minification** : Compression automatique
-- **Compression** : Gzip/Brotli côté serveur
+- **Code splitting stratégique** : Routes séparées (portfolio, services, contact)
+- **Tree shaking agressif** : Suppression composants non utilisés (ex: e-commerce)
+- **Minification avancée** : Terser + CSS minification, source maps production
+- **Compression adaptative** : Brotli pour navigateurs modernes, Gzip legacy
 
-#### Cache et réseau
+#### Cache et réseau adaptés contenu dynamique
 
-- **Static caching** : Headers longue durée
-- **Service Worker** : Cache offline basique
-- **Preload/Prefetch** : Ressources critiques
-- **HTTP/2** : Multiplexage automatique
+- **Static generation portfolio** : Pages créations pré-build optimisé SEO
+- **ISR intelligent** : Régénération automatique nouvelles créations (pas tout rebuild)
+- **Service Worker couture** : Cache offline portfolio, sync background
+- **Preload critique** : Fonts, CSS critical, hero image haute priorité
 
-### Monitoring performance
+### Monitoring performance métier couture
 
-#### Outils
+#### Outils spécialisés activité
 
-- **Lighthouse CI** : Tests automatisés
-- **WebPageTest** : Tests détaillés
-- **Google PageSpeed** : Monitoring continu
-- **Real User Monitoring** : Données réelles
+- **Lighthouse CI intégré** : Tests automatisés déploiement, alertes régression
+- **WebPageTest multi-device** : Tests réels mobile/desktop/tablet
+- **Google PageSpeed personnalisé** : URLs clés monitorées (accueil, portfolio)
+- **Real User Monitoring GA4** : Données réelles visiteurs couture
 
-#### Alertes
+#### Alertes métier prioritaires
 
-- **Performance** : Notification si score < 90
-- **Core Web Vitals** : Alertes seuils dépassés
-- **Temps de chargement** : > 3s = alerte
+- **Performance portfolio** : LCP > 3s = alerte immédiate (impact conversion)
+- **Core Web Vitals** : Seuils dépassés = notification équipe
+- **Temps chargement mobile** : > 4s mobile = priorité haute (80% trafic)
+- **Erreurs JavaScript** : Impact formulaire contact = alerte critique
 
 ---
 
-## SEO (Search Engine Optimization)
+## SEO spécialisé couture locale
 
-### Stratégie de référencement
+### Stratégie référencement "couture [ville]"
 
-#### Mots-clés cibles
+#### Mots-clés cibles hiérarchisés
 
-- **Primaire** : "couture sur mesure [ville]"
-- **Secondaire** : "retouches vêtements", "robe mariage"
-- **Longue traîne** : "couturière expérimentée", "réparation vêtements professionnels"
+**Primaire - Haut volume/conversion :**
 
-#### Contenu optimisé
+- "couture [ville]" (volume élevé, intention locale forte)
+- "retouches [ville]" (demande régulière, urgence possible)
+- "couture sur mesure [ville]" (premium, conversion haute)
 
-- **Titles** : 50-60 caractères, mot-clé en début
-- **Meta descriptions** : 150-160 caractères accrocheurs
-- **Headings** : H1 unique, H2-H6 hiérarchisés
-- **Contenu** : Densité mot-clé naturelle (1-2%)
+**Secondaire - Complémentaires :**
 
-### Données structurées (Schema.org)
+- "robe mariage [ville]", "costume homme [ville]"
+- "réparation vêtements [ville]", "ourlet professionnel"
+- "couturière [ville]", "atelier couture [ville]"
 
-#### Implémentations
+**Longue traîne - SEO durable :**
+
+- "retouches express [ville]", "couture mariage [ville]"
+- "réparation fermeture éclair [ville]", "ourlet pantalon professionnel"
+- "conseils choix tissu [ville]", "accompagnement shopping mode"
+
+#### Contenu optimisé métier couture
+
+- **Titles optimisés** : "Couture sur mesure & retouches | Karine Creation - [Ville]"
+- **Meta descriptions** : "Artisane couturière depuis 15 ans. Créations sur mesure, retouches express, conseils styling. Devis gratuit - Atelier [Ville]"
+- **Headings structurés** : H1 unique/page, H2 services, H3 détails techniques
+- **Contenu naturel** : Densité 1.5-2% mots-clés, focus valeur ajoutée
+
+### Données structurées Schema.org spécialisées
+
+#### LocalBusiness complet atelier couture
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "Karine Creation",
-  "description": "Couture sur mesure et retouches",
+  "description": "Atelier couture sur mesure, retouches et créations personnalisées",
+  "url": "https://karine-creation.fr",
+  "telephone": "+33-6-XX-XX-XX-XX",
+  "email": "contact@karine-creation.fr",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 rue de la Mode",
+    "streetAddress": "123 rue de l'Artisanat",
     "addressLocality": "[Ville]",
     "postalCode": "75000",
     "addressCountry": "FR"
   },
-  "telephone": "+33 6 XX XX XX XX",
-  "openingHours": "Mo-Fr 09:00-18:00"
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "48.8566",
+    "longitude": "2.3522"
+  },
+  "openingHours": ["Mo-Fr 09:00-12:00", "Mo-Fr 14:00-18:00", "Sa 09:00-12:00"],
+  "priceRange": "€€",
+  "paymentAccepted": ["Cash", "Credit Card", "Check"],
+  "currenciesAccepted": "EUR"
 }
 ```
 
-#### Types de schema
+#### Services détaillés couture
 
-- **LocalBusiness** : Informations entreprise
-- **Service** : Prestations proposées
-- **ImageObject** : Photos portfolio
-- **Review** : Témoignages clients
+```json
+{
+  "@type": "Service",
+  "name": "Retouches Express",
+  "description": "Ourlets, raccourcissements, réparations en 24-48h",
+  "provider": { "@type": "LocalBusiness", "name": "Karine Creation" },
+  "areaServed": "[Ville]",
+  "serviceType": "Textile Care",
+  "offers": {
+    "@type": "Offer",
+    "priceRange": "15-45€"
+  }
+}
+```
 
-### Optimisations techniques
+#### Portfolio et créations structurées
 
-#### URL et structure
+```json
+{
+  "@type": "ImageObject",
+  "name": "Robe de mariée dentelle française",
+  "description": "Création sur mesure en dentelle de Calais, finitions main",
+  "url": "https://karine-creation.fr/portfolio/robe-mariee-001.jpg",
+  "contentUrl": "https://karine-creation.fr/portfolio/robe-mariee-001.jpg",
+  "license": "https://karine-creation.fr/droits-image",
+  "acquireLicensePage": "https://karine-creation.fr/contact",
+  "creditText": "Karine Creation - Atelier couture [Ville]",
+  "creator": {
+    "@type": "Person",
+    "name": "Karine Dubois"
+  }
+}
+```
 
-- **URLs SEO** : /portfolio/robes-mariage
-- **Sitemap** : Automatique Next.js
-- **Robots.txt** : Accès crawl autorisé
-- **Canonical** : URLs canoniques
+### Optimisations techniques SEO couture
 
-#### Performance SEO
+#### URL et structure optimisées métier
 
-- **Mobile-first** : Design responsive prioritaire
-- **Core Web Vitals** : Facteurs ranking Google
-- **HTTPS** : Sécurité obligatoire
-- **AMP** : Optionnel pour actualités
+- **URLs sémantiques** : /portfolio/robes-mariage, /services/retouches-express
+- **Sitemap dynamique** : Généré automatiquement nouvelles créations
+- **Robots.txt optimisé** : Accès portfolio prioritaire, admin protégé
+- **Canonical intelligentes** : Gestion filtres portfolio sans duplicate content
 
-### Outils et suivi
+#### Performance SEO critique couture
 
-#### Analytics
+- **Mobile-first indexing** : Design mobile prioritaire (80% recherches mobile)
+- **Core Web Vitals premium** : Facteur ranking Google 2024, impact local SEO
+- **HTTPS strict** : Sécurité obligatoire, confiance clients
+- **Page Experience** : Signaux utilisateur intégrés ranking
 
-- **Google Analytics 4** : Trafic et comportement
-- **Google Search Console** : Position mots-clés
-- **SEMrush/Ahrefs** : Analyse concurrentielle
+### Outils et suivi SEO spécialisé
 
-#### Reporting
+#### Analytics couture personnalisés
 
-- **Positions** : Suivi mots-clés principaux
-- **Trafic** : Évolution visites organiques
-- **Conversions** : Taux transformation leads
+- **Google Analytics 4** : Événements couture (portfolio views, devis demandes)
+- **Google Search Console** : Positions "couture [ville]", impressions/clics
+- **SEMrush local** : Analyse concurrence couturiers [ville], opportunités mots-clés
 
----
+#### Reporting métier automatisé
 
-## Accessibilité (RGAA niveau AA)
-
-### Conformité réglementaire
-
-#### Normes respectées
-
-- **RGAA 4.1** : Référentiel général accessibilité
-- **WCAG 2.1 niveau AA** : Standard international
-- **Loi n°2005-102** : Accessibilité numérique France
-
-### Critères d'accessibilité
-
-#### Perception
-
-- **Images** : Alternatives textuelles complètes
-- **Couleurs** : Contraste > 4.5:1 (texte), > 3:1 (graphiques)
-- **Multimédia** : Transcriptions/captions si nécessaire
-- **Animations** : Respect préférences utilisateur
-
-#### Navigation
-
-- **Clavier** : Navigation complète sans souris
-- **Focus** : Indicateur visible et logique
-- **Structure** : Headings hiérarchisés
-- **Liens** : Intitulés explicites
-
-#### Compréhension
-
-- **Langue** : Déclaration explicite (lang="fr")
-- **Instructions** : Messages d'erreur clairs
-- **Aide** : Conseils contextuels
-- **Cohérence** : Patterns uniformes
-
-#### Robustesse
-
-- **Technologies** : Standards du web respectés
-- **Validation** : Code HTML/W3C valide
-- **Compatibilité** : Lecteurs d'écran supportés
-- **Mises à jour** : Accessibilité préservée
-
-### Tests et validation
-
-#### Outils automatisés
-
-- **WAVE** : Interface intuitive
-- **axe DevTools** : Extension navigateur
-- **Lighthouse** : Audit intégré
-- **Pa11y** : Tests ligne commande
-
-#### Tests manuels
-
-- **Navigation clavier** : Tab, flèches, enter
-- **Lecteurs d'écran** : NVDA, JAWS, VoiceOver
-- **Zoom** : Jusqu'à 200% sans perte
-- **Utilisateurs** : Tests avec personnes handicapées
-
-### Plan d'action accessibilité
-
-#### Phase implémentation
-
-- **Formation** : Équipe sensibilisée
-- **Guidelines** : Checklist intégrée développement
-- **Outils** : Intégration CI/CD
-- **Revue** : Code review accessibilité
-
-#### Maintenance
-
-- **Audit annuel** : Conformité vérifiée
-- **Formation continue** : Évolution normes
-- **Feedback** : Amélioration continue
-- **Documentation** : Procédures à jour
+- **Dashboard couture** : Positions mots-clés locaux, trafic atelier
+- **Alertes opportunités** : Nouveaux mots-clés "couture [ville]"
+- **Rapports conversions** : Devis demandés → clients acquis
+- **ROI SEO** : Coût/client acquis via organique
 
 ---
 
-## Éco-conception
+## Accessibilité RGAA niveau AA spécialisée handicaps
 
-### Impact environnemental
+### Conformité réglementaire métier couture
 
-#### Métriques écologiques
+#### Normes adaptées accessibilité clients
 
-- **Greenhouse gas** : < 0.5g CO2e par visite
-- **Energy efficiency** : Grade A+ possible
-- **Digital carbon rating** : Optimisé
+- **RGAA 4.1 niveau AA** : Référentiel accessibilité français obligatoire
+- **WCAG 2.1 niveau AA** : Standard international accessibilité web
+- **Loi n°2005-102** : Accessibilité numérique public (site commercial)
+- **Directive européenne** : Accessibilité services publics (impact privé)
 
-### Optimisations écologiques
+### Critères accessibilité adaptés handicaps couture
 
-#### Hébergement
+#### Perception spécialisée handicaps visuels
 
-- **Green hosting** : Énergie renouvelable
-- **Edge computing** : Réduction latence
-- **Auto-scaling** : Ressources adaptées
+- **Images portfolio** : Alt texts riches "Robe de mariée en dentelle française, finitions main, atelier [ville]"
+- **Couleurs contrastées** : Ratio > 4.5:1 texte, > 3:1 boutons CTA couture
+- **Zoom accessible** : Mise en page préservée jusqu'à 200%, images portfolio lisibles
+- **Multimédia** : Descriptions audio futures vidéos techniques (phase 2)
 
-#### Développement
+#### Navigation adaptée handicaps moteurs
 
-- **Code efficient** : Algorithmes optimisés
-- **Assets légers** : Images/composants optimisés
-- **Cache intelligent** : Réduction requêtes
+- **Clavier complet** : Navigation portfolio, filtres, formulaire devis sans souris
+- **Focus couture visible** : Outline or épais (3px) sur boutons "Demander devis"
+- **Structure logique** : Headings H1-H6 pour catégories (robes, costumes, retouches)
+- **Liens explicites** : "Voir portfolio robes mariage" plutôt que "Cliquez ici"
 
-#### Utilisation
+#### Compréhension facilitée handicaps cognitifs
 
-- **Progressive loading** : Chargement adaptatif
-- **Offline capable** : Fonctionnalités dégradées
-- **Data saving** : Mode économie données
+- **Langue claire** : Français simple, termes couture expliqués
+- **Instructions devis** : Guides étapes "1. Choisir service 2. Remplir détails"
+- **Erreurs contextualisées** : "Téléphone requis pour confirmation RDV atelier"
+- **Cohérence uniforme** : Boutons CTA toujours position "bas droite"
 
-### Outils mesure
+#### Robustesse technique handicaps
 
-- **EcoIndex** : Score environnemental
-- **Website Carbon Calculator** : Empreinte CO2
-- **GreenFrame** : Tests automatisés
+- **Technologies standards** : HTML5 sémantique, ARIA labels portfolio
+- **Validation W3C** : Code propre, accessible lecteurs d'écran
+- **Compatibilité large** : Support NVDA, JAWS, VoiceOver, TalkBack
+- **Mises à jour sûres** : Accessibilité préservée lors évolutions
+
+### Tests et validation accessibilité couture
+
+#### Outils automatisés spécialisés
+
+- **WAVE intégré** : Tests continus développement, erreurs blocking
+- **axe DevTools extension** : Audit composants pendant développement
+- **Lighthouse accessibilité** : Score > 95/100 obligatoire déploiement
+- **Pa11y CI** : Tests automatisés pipeline, blocage déploiement si échec
+
+#### Tests manuels handicap couture
+
+- **Navigation clavier** : Parcours complet demande devis sans souris
+- **Lecteurs d'écran** : Test descriptions portfolio, formulaire contact
+- **Zoom haute résolution** : Lisibilité tarifs, détails techniques créations
+- **Utilisateurs handicapés** : Tests réels avec association locale handicaps
+
+### Plan action accessibilité progressive
+
+#### Phase implémentation développement
+
+- **Formation accessibilité** : Sessions équipe, guidelines intégrées workflow
+- **Checklist développement** : Points contrôle accessibilité par ticket
+- **Outils intégrés** : axe DevTools, WAVE dans routine développement
+- **Code review spécialisé** : Validation accessibilité pull requests
+
+#### Maintenance accessibilité continue
+
+- **Audit semestriel** : Vérification conformité RGAA évolutions normes
+- **Formation continue** : Veille accessibilité, nouveaux standards
+- **Feedback utilisateurs** : Améliorations basées retours handicaps
+- **Documentation évolutive** : Procédures accessibilité à jour
 
 ---
 
-## Monitoring et alerting
+## Éco-conception adaptée artisanat couture
 
-### Dashboard performance
+### Impact environnemental responsable métier
 
-- **Real-time** : Métriques temps réel
-- **Historique** : Tendances 30 derniers jours
-- **Alertes** : Seuils configurables
-- **Rapports** : Automatiques hebdomadaires
+#### Métriques écologiques spécialisées
 
-### Indicateurs clés
+- **Greenhouse gas** : < 0.5g CO2e/visite (objectif vs 1.2g moyenne site)
+- **Energy efficiency** : Grade A+ possible via Vercel green hosting
+- **Digital carbon rating** : Optimisé pour activité durable (textile circulaire)
 
-- **Performance** : Core Web Vitals
-- **SEO** : Positions mots-clés
-- **Accessibilité** : Score conformité
-- **Écologie** : Impact environnemental
+### Optimisations écologiques couture durable
+
+#### Hébergement responsable
+
+- **Green hosting Vercel** : 100% énergie renouvelable, edge computing économe
+- **CDN optimisé** : Cache intelligent, réduction transferts longue distance
+- **Auto-scaling efficient** : Ressources adaptées trafic couture (pics mariage)
+
+#### Développement éco-conçu
+
+- **Code performant** : Algorithmes optimisés, pas de JavaScript superflu
+- **Assets optimisés** : Images WebP, compression intelligente, formats modernes
+- **Cache intelligent** : Réduction requêtes serveur, économie bande passante
+
+#### Utilisation responsable
+
+- **Progressive loading** : Chargement adaptatif selon connexion utilisateur
+- **Offline portfolio** : Consultation créations sans réseau (service worker)
+- **Data saving mode** : Détection économie données, adaptation chargement
+
+### Outils mesure impact environnemental
+
+- **EcoIndex français** : Score environnemental adapté marché français
+- **Website Carbon Calculator** : Empreinte CO2 précise par visite
+- **GreenFrame automatisé** : Tests écologiques intégrés CI/CD
+
+---
+
+## Monitoring et alerting métier couture
+
+### Dashboard performance spécialisé
+
+- **Real-time couture** : Métriques temps réel (portfolio views, devis demandes)
+- **Historique saisonnier** : Tendances mariage (pics mars-juin, septembre-décembre)
+- **Alertes métier** : Seuils configurables (LCP portfolio, erreurs formulaire)
+- **Rapports automatisés** : Hebdomadaire + mensuel spécialisé couture
+
+### Indicateurs clés métier (KPIs)
+
+- **Performance technique** : Core Web Vitals, temps chargement portfolio
+- **SEO local** : Positions "couture [ville]", trafic organique atelier
+- **Accessibilité** : Conformité RGAA, feedback utilisateurs handicaps
+- **Écologie** : Impact CO2/visite, grade énergie hosting
+- **Business couture** : Conversions devis, demandes contact, satisfaction clients
+
+Cette approche intégrée performance/SEO/accessibilité positionne Karine Creation comme référence digitale de l'artisanat couture local !
