@@ -1,277 +1,381 @@
-# 06 - Spécifications Techniques
+# 06 - Spécifications Techniques - Karine Creation
 
-## Architecture générale
+## Architecture générale adaptée à l'activité couture
 
-### Approche technologique
+### Approche technologique justifiée pour le secteur artisanal
 
 **Recommandation** : Next.js 14+ avec TypeScript
-**Justification** :
+**Justification métier couture** :
 
-- **SEO natif** : Server-side rendering pour moteurs recherche
-- **Performance** : Optimisation automatique images, code-splitting
-- **DX** : TypeScript pour sécurité, hot-reload pour productivité
-- **Évolutivité** : Architecture modulaire, API routes intégrées
+- **SEO local critique** : "Couture [ville]" - SSR essentiel pour référencement artisanal
+- **Performance portfolio** : Images haute qualité optimisées automatiquement
+- **Évolutivité progressive** : Du site vitrine au e-commerce léger
+- **Formation CDA** : Patterns modernes React, architecture professionnelle
+- **Maintenance simplifiée** : Écosystème mature, communauté active
 
-### Alternatives évaluées
+### Alternatives évaluées selon besoins couture
 
 #### Option 1 : Next.js + TypeScript (RECOMMANDÉ)
 
 ```
-✅ SEO excellent (SSR/SSG)
-✅ Performance optimisée
-✅ Écosystème riche
-✅ Apprentissage CDA (patterns modernes)
-❌ Courbe apprentissage initiale
+✅ SEO local optimal (SSR pour "couture [ville]")
+✅ Performance images portfolio haute qualité
+✅ Écosystème couture (blog, e-commerce évolutif)
+✅ Apprentissage complet stack moderne
+✅ Support français actif et documentation
+❌ Courbe apprentissage initiale (compensée par pédagogie CDA)
 ```
 
-#### Option 2 : React + Vite
+#### Option 2 : React + Vite (alternative pédagogique)
 
 ```
-✅ Contrôle total architecture
-✅ Développement rapide
-✅ Flexibilité maximale
-✅ Compréhension toolchain
-❌ SEO nécessite configuration
-❌ Plus complexe déploiement
+✅ Contrôle total architecture pour compréhension profonde
+✅ Développement rapide prototypage fonctionnalités couture
+✅ Flexibilité maximale évolution (blog, boutique en ligne)
+✅ Maîtrise complète toolchain développement
+❌ SEO nécessite configuration manuelle (contre-performance locale)
+❌ Déploiement plus complexe (non critique pour apprentissage)
 ```
 
-#### Option 3 : CMS headless (Strapi + Next.js)
+#### Option 3 : CMS traditionnel (WordPress)
 
 ```
-✅ Gestion contenu simplifiée
-✅ Interface admin intuitive
-✅ API automatique
-✅ Évolutivité facile
-❌ Coût maintenance
-❌ Dépendance externe
+✅ Interface familière gestion contenu portfolio
+✅ Plugins couture (galeries, formulaires devis)
+✅ Référencement local facilité
+✅ Maintenance délégable
+❌ Performance dégradée images/portfolio
+❌ Dépendance lourde et coûteuse
+❌ Moins pédagogique pour compétences CDA
 ```
+
+**Décision** : Next.js privilégié pour équilibre performance/SEO/apprentissage
 
 ---
 
-## Stack technique détaillé
+## Stack technique détaillé pour site couture
 
-### Frontend
+### Frontend optimisé couture
 
-- **Framework** : Next.js 14 (App Router)
-- **Language** : TypeScript 5+
-- **Styling** : Tailwind CSS 3+
-- **State** : React hooks (useState, useEffect)
-- **Routing** : Next.js App Router (file-based)
+- **Framework** : Next.js 14 (App Router) - Routing optimisé SEO local
+- **Language** : TypeScript 5+ - Sécurité développement professionnel
+- **Styling** : Tailwind CSS 3+ - Design system couture cohérent
+- **State** : React hooks natifs - Suffisant pour site vitrine
+- **Routing** : Next.js App Router - URLs SEO-friendly (/portfolio/robes-mariage)
 
-### Outils développement
+### Outils développement spécialisés couture
 
-- **Build** : Next.js (webpack intégré)
-- **Linting** : ESLint + Prettier
-- **Testing** : Vitest (unitaire) + Playwright (E2E)
-- **Git hooks** : Husky + lint-staged
+- **Build** : Next.js (webpack intégré) - Optimisation automatique images portfolio
+- **Linting** : ESLint + Prettier - Code propre et professionnel
+- **Testing** : Vitest (unitaire) + Playwright (E2E) - Qualité formation CDA
+- **Git hooks** : Husky + lint-staged - Workflow professionnel automatisé
 
-### Déploiement
+### Déploiement adapté activité artisanale
 
-- **Platform** : Vercel (recommandé) ou Netlify
-- **CDN** : Intégré aux platforms
-- **Domain** : karine-creation.fr
-- **SSL** : Automatique (Let's Encrypt)
+- **Platform** : Vercel (recommandé) - Déploiement simplifié, CDN global gratuit
+- **CDN** : Intégré Vercel - Distribution rapide images portfolio haute qualité
+- **Domain** : karine-creation.fr - Nom de domaine professionnel
+- **SSL** : Automatique Let's Encrypt - Sécurité confiance clients
+- **Analytics** : Google Analytics 4 - Suivi comportement visiteurs couture
 
-### Monitoring
+### Monitoring spécialisé métier couture
 
-- **Performance** : Google PageSpeed Insights
-- **Analytics** : Google Analytics 4
-- **SEO** : Google Search Console
-- **Accessibilité** : WAVE, axe DevTools
+- **Performance** : Google PageSpeed - Vitesse chargement portfolio critique
+- **SEO local** : Google Search Console - Positionnement "couture [ville]"
+- **Accessibilité** : WAVE, axe DevTools - RGAA niveau AA obligatoire
+- **Core Web Vitals** : Métriques Google prioritaires pour UX couture
 
 ---
 
-## Architecture applicative
+## Architecture applicative adaptée couture
 
-### Structure dossiers (Feature-based)
+### Structure dossiers feature-based couture
 
 ```
 src/
 ├── app/                    # Next.js App Router
-│   ├── (pages)/           # Routes publiques
-│   │   ├── page.tsx       # Accueil
-│   │   ├── portfolio/     # Portfolio
-│   │   ├── services/      # Services
-│   │   ├── contact/       # Contact
-│   │   └── about/         # À propos
-│   ├── api/               # API routes
-│   └── layout.tsx         # Layout global
-├── components/            # Composants réutilisables
-│   ├── ui/               # Composants de base
-│   ├── layout/           # Header, Footer, Navigation
-│   └── sections/         # Sections de pages
-├── lib/                  # Utilitaires
-│   ├── utils.ts          # Fonctions helpers
-│   ├── constants.ts      # Constantes
-│   └── validations.ts    # Schémas validation
-├── styles/               # Styles globaux
-└── types/                # Types TypeScript
+│   ├── (pages)/           # Routes publiques optimisées SEO
+│   │   ├── page.tsx       # Accueil - Hero + services couture
+│   │   ├── portfolio/     # Portfolio - Filtres spécialisés
+│   │   │   ├── page.tsx   # Grille portfolio
+│   │   │   ├── robes-mariage/
+│   │   │   ├── costumes-homme/
+│   │   │   ├── retouches/
+│   │   │   └── creations-originales/
+│   │   ├── services/      # Services - Transparence tarifaire
+│   │   ├── tarifs/        # Tarifs - Calculateur devis
+│   │   ├── contact/       # Contact - Formulaire intelligent
+│   │   └── a-propos/      # À propos - Parcours authentique
+│   ├── api/               # API routes couture
+│   │   ├── contact/       # Envoi emails devis
+│   │   └── analytics/     # Tracking événements couture
+│   ├── layout.tsx         # Layout global responsive
+│   └── loading.tsx        # Skeletons portfolio
+├── components/            # Composants réutilisables couture
+│   ├── ui/               # Design system (ButtonCTA, CardCouture)
+│   ├── layout/           # Header/Footer/Navigation
+│   ├── sections/         # HeroCouture, PortfolioGrid, ServicesSection
+│   └── forms/            # ContactForm, DevisCalculator
+├── lib/                  # Utilitaires métier couture
+│   ├── utils.ts          # Helpers formatage prix, validation
+│   ├── constants.ts      # Catégories portfolio, services
+│   ├── validations.ts    # Schémas formulaires couture
+│   └── seo.ts            # Métadonnées SEO local
+├── styles/               # Styles globaux couture
+│   ├── globals.css       # Tailwind + variables design
+│   └── components.css    # Overrides composants spécifiques
+├── types/                # Types TypeScript couture
+│   ├── portfolio.ts      # Interfaces créations, filtres
+│   ├── contact.ts        # Types formulaires devis
+│   └── common.ts         # Types partagés
+└── data/                 # Contenus statiques couture
+    ├── portfolio.json    # Métadonnées créations
+    ├── services.json     # Descriptions services
+    └── testimonials.json # Avis clients
 ```
 
-### Patterns architecturaux
+### Patterns architecturaux adaptés couture
 
-#### Composants
+#### Composants spécialisés métier
 
-- **Atomic Design** : Atoms → Molecules → Organisms
-- **Props interface** : Typage strict TypeScript
-- **Composition** : Préférer composition à héritage
+- **Atomic Design couture** : Atoms (ButtonCTA) → Molecules (FilterChips) → Organisms (PortfolioGrid)
+- **Props interface strict** : Typage TypeScript créations, services, contact
+- **Composition modulaire** : Réutilisation composants portfolio, services
 
-#### État
+#### État optimisé site vitrine
 
-- **Local state** : useState pour composants isolés
-- **Server state** : API routes pour données dynamiques
-- **Form state** : React Hook Form + Zod validation
+- **Local state** : useState filtres portfolio, formulaire contact
+- **Server state** : API routes contact, analytics couture
+- **Form state** : React Hook Form + Zod validation devis personnalisé
 
-#### Données
+#### Données structurées couture
 
-- **Static** : Contenu dans fichiers Markdown/JSON
-- **Dynamic** : API routes Next.js (contact, analytics)
-- **External** : Intégrations (Google Maps, réseaux sociaux)
-
----
-
-## Performance et optimisation
-
-### Métriques cibles
-
-#### Core Web Vitals (Google)
-
-- **LCP** : < 2.5s (Largest Contentful Paint)
-- **FID** : < 100ms (First Input Delay)
-- **CLS** : < 0.1 (Cumulative Layout Shift)
-
-#### Lighthouse Score
-
-- **Performance** : > 90/100
-- **Accessibility** : > 95/100
-- **SEO** : > 95/100
-- **Best Practices** : > 95/100
-
-### Optimisations implémentées
-
-#### Images
-
-- **Next.js Image** : Optimisation automatique
-- **Formats modernes** : WebP avec fallback
-- **Responsive** : Srcset automatique
-- **Lazy loading** : Par défaut
-
-#### Bundle
-
-- **Code splitting** : Automatique par route
-- **Tree shaking** : Suppression code mort
-- **Compression** : Gzip/Brotli automatique
-
-#### Cache
-
-- **Static** : Cache CDN longue durée
-- **Dynamic** : ISR (Incremental Static Regeneration)
-- **API** : Cache intelligent selon données
+- **Static** : Portfolio, services, tarifs dans fichiers JSON optimisés
+- **Dynamic** : API contact (envoi email), analytics (suivi couture)
+- **External** : Google Maps atelier, Instagram feed (phase 2)
 
 ---
 
-## Sécurité
+## Performance et optimisation couture
 
-### Mesures implémentées
+### Métriques cibles adaptées activité
 
-#### Frontend
+#### Core Web Vitals optimisés portfolio
 
-- **CSP** : Content Security Policy
-- **XSS** : Sanitisation automatique
-- **CSRF** : Tokens pour formulaires
+- **LCP** : < 2.5s (chargement hero + premières images portfolio)
+- **FID** : < 100ms (interactivité filtres couture)
+- **CLS** : < 0.1 (stabilité layout lors chargement images)
 
-#### Données
+#### Lighthouse Score métier couture
 
-- **RGPD** : Conformité collecte données
-- **Encryption** : HTTPS obligatoire
-- **Validation** : Input sanitisation
+- **Performance** : > 90/100 (chargement rapide portfolio haute qualité)
+- **Accessibility** : > 95/100 (RGAA AA pour accessibilité clients)
+- **SEO** : > 95/100 (référencement local "couture [ville]")
+- **Best Practices** : > 95/100 (sécurité, performance)
 
-#### Infrastructure
+### Optimisations spécifiques couture
 
-- **Headers** : Security headers automatiques
-- **Monitoring** : Alertes sécurité
-- **Updates** : Dépendances à jour
+#### Images portfolio haute qualité
 
-### Audit sécurité
+- **Next.js Image avancé** : Optimisation automatique + art direction
+- **Formats modernes** : WebP prioritaire, AVIF support, JPG fallback
+- **Responsive art directed** : Différentes compositions mobile/desktop
+- **Lazy loading intelligent** : Priorité hero, puis portfolio visible
 
-- **OWASP Top 10** : Revue des vulnérabilités
-- **Dependencies** : Audit npm régulier
-- **Code review** : Validation sécurité
+#### Bundle optimisé fonctionnalités couture
 
----
+- **Code splitting routes** : Séparation portfolio/services/contact
+- **Tree shaking agressif** : Suppression code inutilisé
+- **Compression double** : Gzip + Brotli selon navigateur
+- **Service worker** : Cache offline portfolio (phase 2)
 
-## Accessibilité (RGAA niveau AA)
+#### Cache stratégique contenu couture
 
-### Conformité technique
-
-#### Navigation
-
-- **Clavier** : Navigation complète au clavier
-- **Focus** : Indicateur focus visible
-- **Skip links** : Accès rapide contenu
-
-#### Contenu
-
-- **Structure** : Headings hiérarchisés (h1→h6)
-- **Images** : Alt texts descriptifs
-- **Couleurs** : Contraste > 4.5:1
-- **Langue** : Déclaration fr-FR
-
-#### Multimédia
-
-- **Audio/vidéo** : Transcriptions si nécessaire
-- **Animations** : Respect préférences utilisateur
-- **Formulaires** : Labels explicites, erreurs claires
-
-### Outils validation
-
-- **Automatisé** : axe DevTools, WAVE
-- **Manuel** : Tests utilisateurs handicapés
-- **Rapports** : Audit RGAA détaillé
+- **Static generation** : Pages portfolio pré-générées build-time
+- **ISR portfolio** : Régénération automatique nouvelles créations
+- **API cache** : Cache Redis contact/analytics (Vercel KV)
+- **CDN images** : Cache longue durée assets portfolio
 
 ---
 
-## Évolutivité
+## Sécurité adaptée données clients couture
 
-### Architecture modulaire
+### Mesures RGPD compliance métier
 
-- **Feature flags** : Activation/désactivation fonctionnalités
-- **Micro-frontends** : Possible séparation future
-- **API first** : Architecture headless-ready
+#### Protection données clients
 
-### Scalabilité
+- **Collecte minimale** : Seulement nécessaire (nom, email, téléphone, projet)
+- **Consentement explicite** : Case à cocher newsletter optionnelle
+- **Droit accès/modification** : Processus suppression données
+- **Conservation limitée** : 3 ans maximum devis, 6 mois contacts commerciaux
 
-- **CDN** : Distribution globale
-- **Caching** : Stratégies multi-niveaux
-- **Monitoring** : Métriques performance temps réel
+#### Sécurité technique formulaires
 
-### Maintenance
+- **CSP stricte** : Content Security Policy anti-XSS
+- **Sanitisation** : Nettoyage automatique inputs (DOMPurify)
+- **Rate limiting** : Protection anti-spam formulaires contact
+- **Encryption** : HTTPS obligatoire, données chiffrées transit
 
-- **Documentation** : Code commenté, README détaillé
-- **Tests** : Couverture > 80%
-- **CI/CD** : Déploiement automatisé
+#### Infrastructure sécurisée
+
+- **Headers sécurité** : HSTS, X-Frame-Options, etc.
+- **Monitoring sécurité** : Alertes tentatives intrusion
+- **Updates automatiques** : Dépendances sécurité Vercel
+- **Backup** : Sauvegarde automatique base données
+
+### Audit sécurité couture
+
+- **OWASP Top 10** : Revue spécifique formulaires contact
+- **Dependencies audit** : npm audit automatisé CI/CD
+- **Code review** : Validation sécurité pull requests
+- **Tests sécurité** : Injection SQL, XSS prévention
 
 ---
 
-## Plan de développement
+## Accessibilité RGAA niveau AA spécialisée couture
 
-### Phase 1 (MVP - 4 semaines)
+### Conformité technique adaptée handicaps
 
-- Setup Next.js + TypeScript
-- Pages statiques (Accueil, À propos)
-- Formulaire contact basique
-- Portfolio statique (10 photos)
+#### Navigation inclusive clients
 
-### Phase 2 (Enrichissement - 3 semaines)
+- **Clavier complet** : Navigation portfolio, filtres, formulaires
+- **Focus visible couture** : Outline or épais sur boutons CTA
+- **Skip links** : "Aller au portfolio", "Aller au contact"
+- **Tab order logique** : Flux naturel exploration créations
 
-- Portfolio dynamique avec filtres
-- Optimisations performance/SEO
-- Intégration analytics
-- Tests et validation
+#### Contenu accessible descriptions couture
 
-### Phase 3 (Production - 1 semaine)
+- **Structure sémantique** : Headings h1-h6 pour catégories portfolio
+- **Images portfolio** : Alt texts riches ("Robe de mariée dentelle française...")
+- **Icônes services** : aria-label explicites ("Service retouches express")
+- **Couleurs contrastées** : Ratio > 4.5:1 pour lisibilité tarifs
 
-- Audit accessibilité
-- Optimisations finales
-- Déploiement production
-- Monitoring setup
+#### Multimédia et interactions
+
+- **Animations subtiles** : Respect reduced-motion pour confort
+- **Formulaires intuitifs** : Labels flottants, erreurs contextualisées
+- **Temps réponse** : Validation immédiate champs contact
+- **Lecteurs écran** : Descriptions complètes services/témoignages
+
+### Outils validation accessibilité couture
+
+- **Automatisé continu** : axe DevTools intégré développement
+- **Tests manuels** : Validation RGAA complète avant production
+- **Utilisateur handicap** : Tests réels avec personnes malvoyantes
+- **Rapports détaillés** : Audit accessibilité documenté
+
+---
+
+## Évolutivité architecture modulaire couture
+
+### Architecture headless-ready
+
+- **Feature flags** : Activation blog, e-commerce, RDV en ligne
+- **API first** : Endpoints réutilisables futures intégrations
+- **Micro-services** : Séparation possible gestion contenu/portfolio
+- **CMS ready** : Préparation Strapi/Contentful évolution
+
+### Scalabilité progressive activité
+
+- **CDN global** : Distribution rapide images portfolio international
+- **Caching multi-niveau** : Browser, CDN, server, database
+- **Monitoring temps réel** : Alertes performance Core Web Vitals
+- **Auto-scaling** : Adaptation trafic périodes mariage
+
+### Maintenance professionnelle CDA
+
+- **Documentation complète** : README, ADR, guides déploiement
+- **Tests automatisés** : Couverture > 80% fonctionnalités critiques
+- **CI/CD robuste** : Tests, build, déploiement automatisé Vercel
+- **Monitoring applicatif** : Sentry erreurs, analytics performance
+
+---
+
+## Plan de développement détaillé couture
+
+### Phase 1 - Fondation (Semaines 1-4)
+
+**Setup technique professionnel**
+
+- Initialisation Next.js 14 + TypeScript + Tailwind
+- Configuration ESLint, Prettier, Husky
+- Setup Vercel + domain karine-creation.fr
+- Création design system couture (tokens, composants)
+
+**Fonctionnalités MVP critiques**
+
+- Page accueil : Hero storytelling, services, portfolio preview
+- Page contact : Formulaire intelligent avec validation
+- Page à propos : Parcours authentique avec photos atelier
+- Layout responsive : Navigation, header, footer cohérents
+
+**Contenu initial**
+
+- 15 photos portfolio représentatives optimisées
+- Textes services et tarifs détaillés
+- Coordonnées et horaires atelier
+- Métadonnées SEO local basiques
+
+### Phase 2 - Enrichissement métier (Semaines 5-8)
+
+**Portfolio dynamique avancé**
+
+- Galerie complète avec filtres couture (robes, costumes, retouches)
+- Lightbox haute qualité avec détails techniques
+- Tri par date, catégorie, popularité
+- Optimisation images WebP progressive
+
+**Optimisations performance/SEO**
+
+- Core Web Vitals > 90 (LCP, FID, CLS)
+- SEO local complet : Schema.org, Google My Business
+- Analytics GA4 + Search Console configurés
+- Accessibilité RGAA AA validée
+
+**Fonctionnalités métier**
+
+- Calculateur devis approximatif
+- Témoignages clients intégrés
+- Blog conseils couture (3 articles)
+- Intégration Instagram feed
+
+### Phase 3 - Production et lancement (Semaines 9-10)
+
+**Tests et validation qualité**
+
+- Tests E2E Playwright parcours utilisateurs
+- Audit accessibilité RGAA complet
+- Tests performance Lighthouse > 95
+- Validation formulaires et responsive
+
+**Déploiement production**
+
+- Build optimisé production Vercel
+- Configuration monitoring et alertes
+- Tests post-déploiement réels
+- Documentation maintenance CDA
+
+**Lancement et suivi**
+
+- Annonce réseaux sociaux
+- Monitoring analytics premiers jours
+- Corrections bugs identifiés
+- Préparation évolutions (blog, RDV)
+
+### Phase 4 - Évolutions planifiées (Mois 4-6)
+
+**Fonctionnalités avancées**
+
+- Système RDV en ligne (Calendly intégré)
+- Blog couture complet avec SEO
+- E-commerce léger (patrons, mercerie)
+- Newsletter Mailchimp automatisée
+
+**Optimisations continues**
+
+- A/B tests CTA et conversion
+- Améliorations UX basées analytics
+- Nouvelles fonctionnalités selon retours
+- Préparation scale activité
+
+Cette architecture technique équilibrée performance/apprentissage permet de livrer un site professionnel tout en maximisant l'acquisition de compétences CDA !
