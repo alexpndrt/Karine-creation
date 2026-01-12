@@ -33,15 +33,17 @@ Tu es un **Lead Developer / Architecte Web Senior** spécialisé en React & Next
 
 ```
 1. ANALYSE & CONCEPTION
-   ├── docs/01-cadrage.md       → Spécifications fonctionnelles & non-fonctionnelles
-   ├── docs/02-arborescence.md  → Structure site, pages, navigation
-   ├── docs/03-contenu.md       → Inventaire contenu & assets
-   └── docs/04-contraintes.md   → Contraintes tech, budget, timeline, hosting
+   ├── docs/cdc/01-contexte-projet.md       → Spécifications fonctionnelles & non-fonctionnelles
+   ├── docs/cdc/02-public-cible.md          → Personas et parcours utilisateurs
+   ├── docs/cdc/03-fonctionnalites.md       → Spécifications fonctionnelles détaillées
+   ├── docs/cdc/04-contenus.md              → Inventaire contenu & assets
+   ├── docs/cdc/05-design-ux.md             → Spécifications UX/UI
+   └── docs/cdc/09-budget-delais.md         → Contraintes tech, budget, timeline, hosting
 
 2. ARCHITECTURE & STACK
-   ├── Analyse comparative des solutions (CMS vs code)
-   ├── Choix technologiques justifiés
-   └── Design système et composants
+   ├── docs/cdc/06-technique.md             → Choix technologiques justifiés
+   ├── docs/cdc/07-performance-seo.md       → Critères performance, SEO, accessibilité
+   └── docs/cdc/10-validation.md            → Design système et composants
 
 3. DÉVELOPPEMENT
    ├── Structuration du repo (features, pages, composants)
@@ -65,17 +67,24 @@ Tu es un **Lead Developer / Architecte Web Senior** spécialisé en React & Next
 ```
 karine-creation/
 ├── docs/
-│   ├── 01-cadrage.md           # Cahier des charges
-│   ├── 02-arborescence.md      # Sitemap, wireframes
-│   ├── 03-contenu.md           # Inventaire contenu
-│   ├── 04-contraintes.md       # Tech, budget, timeline
-│   ├── 05-architecture.md      # Choix tech justifiés (à créer)
-│   └── 06-decisions.md         # Log des décisions architecturales (à créer)
+│   ├── cdc/                              # Cahier des Charges Modulaire
+│   │   ├── README.md                     # Vue d'ensemble structure
+│   │   ├── 01-contexte-projet.md         # Contexte métier et objectifs
+│   │   ├── 02-public-cible.md            # Personas et besoins
+│   │   ├── 03-fonctionnalites.md         # Spécifications fonctionnelles
+│   │   ├── 04-contenus.md                # Gestion contenu
+│   │   ├── 05-design-ux.md               # Design et UX
+│   │   ├── 06-technique.md               # Architecture technique
+│   │   ├── 07-performance-seo.md         # Performance & SEO
+│   │   ├── 08-evolution.md               # Évolution & maintenance
+│   │   ├── 09-budget-delais.md           # Budget et planning
+│   │   └── 10-validation.md              # Tests et critères
+│   └── README.md (futur)                 # Vue d'ensemble projet
 ├── .github/
 │   ├── copilot-instructions.md
-│   └── workflows/              # CI/CD (à créer)
-├── README.md                   # Vue d'ensemble et setup local
-└── package.json (futur)        # Dépendances & scripts
+│   └── workflows/                        # CI/CD (à créer)
+├── README.md                             # Vue d'ensemble et setup local
+└── package.json (futur)                  # Dépendances & scripts
 ```
 
 ---
@@ -127,11 +136,16 @@ karine-creation/
 
 ## 📋 Checklist Avant Développement
 
-- [ ] **docs/01-cadrage.md** complété (user stories, acceptance criteria)
-- [ ] **docs/02-arborescence.md** complété (sitemap, pages, routes)
-- [ ] **docs/03-contenu.md** complété (textes, images, personas)
-- [ ] **docs/04-contraintes.md** complété (timeline, budget, hosting, audience)
-- [ ] **Stack technique** justifiée et documentée dans docs/05-architecture.md
+- [ ] **docs/cdc/01-contexte-projet.md** complété (contexte métier, objectifs)
+- [ ] **docs/cdc/02-public-cible.md** complété (personas, parcours utilisateurs)
+- [ ] **docs/cdc/03-fonctionnalites.md** complété (spécifications fonctionnelles)
+- [ ] **docs/cdc/04-contenus.md** complété (inventaire contenu, stratégie)
+- [ ] **docs/cdc/05-design-ux.md** complété (design system, wireframes)
+- [ ] **docs/cdc/06-technique.md** complété (architecture, technologies)
+- [ ] **docs/cdc/07-performance-seo.md** complété (critères qualité)
+- [ ] **docs/cdc/08-evolution.md** complété (roadmap, maintenance)
+- [ ] **docs/cdc/09-budget-delais.md** complété (planning, coûts)
+- [ ] **docs/cdc/10-validation.md** complété (tests, critères acceptation)
 - [ ] Repository initialisé avec structure de base
 - [ ] Dev environment fonctionnel (Node, npm, linters)
 - [ ] README.md documenté avec instructions de setup local
